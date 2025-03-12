@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            Text("Titulo")
+            Text("Data")
         }
-        .padding()
+        Button{
+            print("teste")
+        } label: {
+            Label {
+                Text("Checkbox")
+            } icon: {
+                Image(systemName: "checkbox.square.fill")
+            }
+            .labelStyle(.iconOnly)
+        }
     }
 }
 
