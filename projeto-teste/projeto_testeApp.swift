@@ -1,17 +1,17 @@
 //
-//  projeto_testeApp.swift
-//  projeto-teste
+//  ToDoTaskAppApp.swift
+//  ToDoTaskApp
 //
-//  Created by user on 12/03/25.
+//  Created by Beatriz Leonel on 12/03/25.
 //
 
 import SwiftUI
 
 @main
-struct projeto_testeApp: App {
+struct ToDoTaskAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            TaskView()
         }
     }
 }
