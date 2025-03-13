@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE8681B82D821D5B009336D7 /* projeto-teste */ = {
+		CE997EBA2D8355CC00AC76E8 /* projeto-teste */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "projeto-teste";
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		CE8681AD2D821D5B009336D7 = {
 			isa = PBXGroup;
 			children = (
-				CE8681B82D821D5B009336D7 /* projeto-teste */,
+				CE997EBA2D8355CC00AC76E8 /* projeto-teste */,
 				CE8681B72D821D5B009336D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CE8681B82D821D5B009336D7 /* projeto-teste */,
+				CE997EBA2D8355CC00AC76E8 /* projeto-teste */,
 			);
 			name = "projeto-teste";
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE8681B12D821D5B009336D7 /* Build configuration list for PBXProject "Lista-de-tarefas" */;
+			buildConfigurationList = CE8681B12D821D5B009336D7 /* Build configuration list for PBXProject "projeto-teste" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE8681B12D821D5B009336D7 /* Build configuration list for PBXProject "Lista-de-tarefas" */ = {
+		CE8681B12D821D5B009336D7 /* Build configuration list for PBXProject "projeto-teste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE8681C22D821D5C009336D7 /* Debug */,

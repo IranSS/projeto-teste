@@ -24,7 +24,6 @@ struct TaskView: View {
                           : "square")
                 }
                 .labelStyle(.iconOnly)
-
             }
 
         }

@@ -19,9 +19,26 @@ struct ListTask: View {
         TaskModel(title: "Task8", date: Date()),
         TaskModel(title: "Task9", date: Date())
     ]
+    
+    @State var addTask: Bool = false
+    
     var body: some View {
         List{
             Section{
+                Button{
+                    addTask.toggle()
+                    print(addTask)
+                }
+                label: {
+                    Label{
+                        Text("Add Task")
+                    }icon: {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
+            Section{
+                //percorre toda o array
                 ForEach(tasks) { tasks in
                     TaskView(task: tasks)
                 }
@@ -32,6 +49,11 @@ struct ListTask: View {
             footer: {
                 Text("Total \(tasks.count)")
             }
+        }
+        .listStyle(.insetGrouped)
+        //Direcina para a nova página
+        .sheet(isPresented: $addTask) {
+            AddTaskView()
         }
     }
 }
