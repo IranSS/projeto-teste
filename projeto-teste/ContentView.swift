@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ToDoTaskApp
-//
-//  Created by Beatriz Leonel on 12/03/25.
-//
-
 import SwiftUI
 
 struct TaskView: View {
@@ -35,7 +28,6 @@ struct TaskView: View {
             }
 
         }
-        
     }
 }
 

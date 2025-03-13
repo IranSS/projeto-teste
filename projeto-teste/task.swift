@@ -1,16 +1,3 @@
-//
-//  Model.swift
-//  projeto-teste
-//
-//  Created by user on 12/03/25.
-//
-//
-//  TaskModel.swift
-//  ToDoTaskApp
-//
-//  Created by Beatriz Leonel on 12/03/25.
-//
-
 import Foundation
 import Observation
 
