@@ -1,3 +1,4 @@
+
 import SwiftUI
 
 struct TaskView: View {
@@ -24,9 +25,11 @@ struct TaskView: View {
                           : "square")
                 }
                 .labelStyle(.iconOnly)
+
             }
 
         }
+        
     }
 }
 
