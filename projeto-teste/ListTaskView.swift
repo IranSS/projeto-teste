@@ -17,20 +17,8 @@ struct ListTaskView: View {
                 Section {
                     ForEach(tasks) { task in
                         TaskView(task: task)
-                            .swipeActions {
-                                Button(role: .destructive) {
-                                    tasks.removeAll { currentTask in
-                                        currentTask.id == task.id
-                                    }
-                                } label: {
-                                    Label {
-                                        Text("Delete")
-                                    } icon: {
-                                        Image(systemName: "trash")
-                                    }
-
-                                }
-
+                            .swipeActions(allowsFullSwipe: false) {
+                               DeleteTask(task: task)
                             }
                     }
                 } header: {
@@ -60,8 +48,21 @@ struct ListTaskView: View {
             .navigationTitle("Tasks List")
         }
     }
-}
+    func DeleteTask(task: TaskModel) -> some View{
+        Button(role: .destructive) {
+            tasks.removeAll { currentTask in
+                currentTask.id == task.id
+            }
+        } label: {
+            Label {
+                Text("Delete")
+            } icon: {
+                Image(systemName: "trash")
+            }
 
+        }
+    }
+}
 #Preview {
     ListTaskView()
 }
