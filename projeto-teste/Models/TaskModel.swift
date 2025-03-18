@@ -1,8 +1,6 @@
 import Foundation
 import Observation
-import SwiftData
 
-@Model
 @Observable
 class TaskModel: Identifiable {
     var title: String

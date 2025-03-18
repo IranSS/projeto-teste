@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct ToDoTaskAppApp: App {
+struct projeto_testeApp: App {
     var body: some Scene {
         WindowGroup {
-            //ListTaskView()
+            ListTaskView()
         }
     }
 }
